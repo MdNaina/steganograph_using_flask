@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="content">
+        <div id="loading"></div>
+        <form id="myForm" action="/{{file_type}}/decoding" method="post" enctype="multipart/form-data">
+            <br>
+            
+            <h2 class="title">Decode</h2>
+            <input class="upload-box" type="file" name="filename" accept="{{file_type}}/*">
+            <input class="btn" type="submit">
+            <br>
+            
+        </form>
+    </div>
+    <script>
+        const loading = document.querySelector("#loading")
+        const form = document.querySelector("#myForm")
+
+        form.addEventListener('submit', ()=>{
+            loading.style.display = "block";
+        })
+
+    </script>
+
+{% endblock %}
+

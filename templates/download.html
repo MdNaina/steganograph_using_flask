@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2 class="title">Your Audio is ready click the Download</h2>
+    <div class="content">
+        {% if file_type == "audio" %}
+            <audio controls class="audio">
+                <source src="{{url_for('static', filename=file_path)}}" type="audio/mpeg">
+            </audio>
+        {% elif file_type == "image" %}
+            <picture>
+                <img src="{{url_for('static', filename=file_path)}}" width="200px">
+            </picture>
+        {% endif %}
+        <br>
+        <a href="{{url_for('static', filename=file_path)}}" download >
+            <button>Download</button>
+        </a>
+    </div>
+
+{% endblock %}

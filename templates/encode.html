@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+    <div id="loading"></div>
+    <div class="content">
+        <form  id="myForm"action="/{{file_type}}/encoding" method="post" enctype="multipart/form-data">
+            <h2 class="title">Encode</h2>    
+            <input class="upload-box" type="file" name="filename" accept="{{file_type}}/*" required>
+            <span>Enter the Message you want Encode </span>
+            <textarea id="message" name="message" cols="30" rows="7" placeholder="type the message" required></textarea>
+            <br>
+            <input type="submit" class="btn">
+        </form>
+    </div>
+    <script>
+        const loading = document.querySelector("#loading")
+        const form = document.querySelector("#myForm")
+
+        form.addEventListener('submit', ()=>{
+            loading.style.display = "block";
+        })
+
+    </script>
+{% endblock %}

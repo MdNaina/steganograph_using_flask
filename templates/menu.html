@@ -1,0 +1,15 @@
+
+{% extends 'base.html' %}    
+
+
+{% block content %}
+<div class="content">
+    <h1 class="title">Select the Option you want </h1>
+    <br>
+    <br>
+    
+    <a href="/{{file_type}}/encode"><button>Encode</button></a>
+    <a href="/{{file_type}}/decode"><button>Decode</button></a>
+</div>
+ 
+{% endblock %}

@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %}    
+
+
+{% block content %}
+    <div class="content">
+        <h1 class="title">Steganography</h1>
+        <img src="{{url_for('static', filename='img/icon.png')}}" width="250px" alt="">
+        <h5 class="subtitle">Hide you message on your audio and image, choose the options</h5>
+        <a href="/audio"><button><i class='bx bxs-music'></i>Audio</button></a>
+        <a href="/image"><button><i class='bx bxs-image'></i>Image</button></a>
+    </div> 
+{% endblock %}
