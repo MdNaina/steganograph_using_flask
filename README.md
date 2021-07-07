@@ -11,17 +11,17 @@
 ## Screenshot
 <img src="screenshots/screenshot1.png"
      alt="skill"
-     style="margin: 10px;"
-     width="400"/><img src="screenshots/screenshot2.png"
+     style="margin: 20px;"
+     width="600"/><img src="screenshots/screenshot2.png"
      alt="skill"
-     style="margin: 10px;"
-     width="400"/><img src="screenshots/screenshot3.png"
+     style="margin: 20px;"
+     width="600"/><img src="screenshots/screenshot3.png"
      alt="skill"
-     style="margin: 10px;"
-     width="400"/><img src="screenshots/screenshot4.png"
+     style="margin: 20px;"
+     width="600"/><img src="screenshots/screenshot4.png"
      alt="skill"
-     style="margin: 10px;"
-     width="400"/>
+     style="margin: 20px;"
+     width="600"/>
 
 
 
