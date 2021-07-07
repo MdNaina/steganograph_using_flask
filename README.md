@@ -11,16 +11,16 @@
 ## Screenshot
 <img src="screenshots/screenshot1.png"
      alt="skill"
-     style="float:left; margin-right: 10px;"
+     style="float:left; margin: 10px;"
      width="400"/><img src="screenshots/screenshot2.png"
      alt="skill"
-     style="float:left; margin-right: 10px;"
+     style="float:left; margin: 10px;"
      width="400"/><img src="screenshots/screenshot3.png"
      alt="skill"
-     style="float:left; margin-right: 10px;"
+     style="float:left; margin: 10px;"
      width="400"/><img src="screenshots/screenshot4.png"
      alt="skill"
-     style="float:left; margin-right: 10px;"
+     style="float:left; margin: 10px;"
      width="400"/>
 
 
