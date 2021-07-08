@@ -26,4 +26,4 @@
 
 
 
-[thumbnail]: https://github.com/MdNaina/steganograph_using_flask/blob/main/screenshots/thumbnail.png "thumbnail"
+[thumbnail]: https://github.com/MdNaina/steganograph_using_flask/blob/master/screenshots/thumbnail.png "thumbnail"
